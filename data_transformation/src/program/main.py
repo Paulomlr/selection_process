@@ -4,7 +4,7 @@ import csv
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-pdf_path = os.path.join(script_dir, "..", "..", "web-scraping", "attachment1.pdf")
+pdf_path = os.path.join(script_dir, "..", "..", "..", "web-scraping", "attachment1.pdf")
 
 pdf_path = os.path.abspath(pdf_path)
 zip_path = "../Teste_Paulo_Cesar.zip"
