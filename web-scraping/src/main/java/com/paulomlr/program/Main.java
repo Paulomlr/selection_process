@@ -3,20 +3,11 @@ package com.paulomlr.program;
 import com.paulomlr.services.FileCompressionService;
 import com.paulomlr.services.FileDownloadService;
 import com.paulomlr.services.WebScraperService;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
 
 public class Main {
     private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
