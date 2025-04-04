@@ -14,13 +14,13 @@ Este repositório contém os desafios técnicos organizados por etapa.
   - Os caminhos estão configurados com `os.path.join`, então devem funcionar normalmente clonando o repositório.
   - O script extrai tabelas e cria um `.csv` final zipado.
 
-- `/database_test/`
+- `/test_database/`
   - Dois scripts SQL simples. Executar diretamente no banco de dados.
 
 - `/api_health/`
   - API simples para health check.
   - Contém:
-    - `.env.example` (preencher com as informações do usuário, dados sensíveis foram omitidos).
+    - `.env-example` (preencher com as informações do usuário, dados sensíveis foram omitidos).
     - `requirements.txt` para instalar as dependências.
     - `run.py` para rodar o servidor.
     - `postman_collection.json` com o endpoint de teste.
