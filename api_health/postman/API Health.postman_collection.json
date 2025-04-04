@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "acb91820-8205-4ef9-bc15-e0035a90b1f9",
+		"name": "API Health",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37560914"
+	},
+	"item": [
+		{
+			"name": "Operadoras",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
